@@ -26,7 +26,7 @@
 #include "pins_arduino.h"
 #include <SPI.h>
 
-#include "RAK_flash_devices.h"
+#include "RAK_FLASH_Devices.h"
 
 #if SPIFLASH_DEBUG
 #define SPIFLASH_LOG(_address, _count) \

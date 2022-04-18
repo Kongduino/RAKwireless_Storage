@@ -11,6 +11,9 @@ SPI device parts are covered by MIT license by Adafruit => header of each file
 
 # Changelog
 
+2022-04-18 V1.0.2
+   - Fix uppercase type for include.
+
 2022-04-18 V1.0.1
    - Add support for SPI based Flash and FRAM modules.
 

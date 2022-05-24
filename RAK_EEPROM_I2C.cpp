@@ -132,6 +132,7 @@ bool RAK_EEPROM_I2C::write(uint16_t addr, uint8_t *buffer, uint16_t num)
 			return false;
 		}
 		buffer++;
+		delay(100); // Maybe try with shorter delays. 80 could work too.
 	}
 	return true;
 }
@@ -165,3 +166,4 @@ bool RAK_EEPROM_I2C::read(uint16_t addr, uint8_t *buffer, uint16_t num)
 
 	return true;
 }
+	{
